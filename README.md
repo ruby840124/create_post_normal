@@ -1,2 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+# create_post
+This is a project about create post(Use react.js).
+no sweetalert2 and fortawesome.
