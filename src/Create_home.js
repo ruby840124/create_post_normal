@@ -110,7 +110,7 @@ class Create_home extends React.Component {
 						{$imagePreview}<br/><br/>
 						<div className="upload-btn-wrapper">
 							<button className="_button">Upload</button>
-							<input type="file" onChange={this._handleImageChange} />
+							<input type="file" onChange={this._handleImageChange} accept="image/*" />
 						</div>
 						<button  className="_button" onClick={this.handleSubmit} >Submit</button>
 					</center>
