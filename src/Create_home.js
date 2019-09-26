@@ -95,7 +95,7 @@ class Create_home extends React.Component {
 			<div>
 				<div style={{display:this.state.home_display}}>
 					<center>
-						<button className="_button" onClick={this.handleAddPost} >Add Post</button>
+						<button className="_button" onClick={this.handleAddPost} >Add</button>
 						<button  className="_button" onClick={this.handleRemovePost} >Remove Post</button>
 						<NumberList title_text={this.state.title_text} content_text={this.state.content_text} image_content={this.state.image_content} />
 					</center>
